@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   displayTime: {
-    fontFamily: 'space-mono',
+    fontFamily: 'monospace',
     fontSize: 36,
     marginBottom: 15,
     zIndex: 2
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
   displayTimeInput: {
     borderBottomWidth: 1,
     borderBottomColor: "#000",
-    fontFamily: 'space-mono',
+    fontFamily: 'monospace',
     fontSize: 36,
     marginBottom: 15,
     zIndex: 2
@@ -36,18 +36,18 @@ const styles = StyleSheet.create({
   },
   startStop: {
     marginRight: 15,
-    fontFamily: 'space-mono',
+    fontFamily: 'monospace',
     fontSize: 18,
     zIndex: 2
   },
   reset: {
     marginLeft: 15,
-    fontFamily: 'space-mono',
+    fontFamily: 'monospace',
     fontSize: 18,
     zIndex: 2
   },
   todoInput: {
-    fontFamily: 'space-mono',
+    fontFamily: 'monospace',
     marginTop: 50,
     textAlign: 'center',
     fontSize: 18,

@@ -36,9 +36,9 @@ export default function TimerLogic() {
   async function playSound() {
     const sound = new Audio.Sound();
     try {
-      await sound.loadAsync(require('../assets/singingBowl.mp3'));
-      await sound.replayAsync();
-      await sound.unloadAsync();
+      await sound.loadAsync(require('../assets/singingBowl.mp3'), {shouldPlay: true});
+      await sound.setPositionAsync(0);
+      await sound.playAsync();
     } catch (error) {
       console.error(error)
     }
